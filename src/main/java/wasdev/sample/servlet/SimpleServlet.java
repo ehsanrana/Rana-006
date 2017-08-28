@@ -24,6 +24,8 @@ public class SimpleServlet extends HttpServlet {
         response.getWriter().print("Hello World!");
         response.getWriter().print("<br>");
         response.getWriter().print("<I> Hello CSVC Class! </I>");
+        response.getWriter().print("<br>");
+        response.getWriter().print("<B> Your Assignment submission date is 15 September 2017 </B>");
     }
 
 }
